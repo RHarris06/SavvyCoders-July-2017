@@ -1,0 +1,28 @@
+h1{
+  color: #07c4dd
+  font-size: 4em
+  font-style:italic;
+}
+img{
+  width: 400px;
+  height: auto;
+
+}
+
+ol{
+  font-style: italic;
+}
+
+.highlight {
+  background: yellow;
+}
+
+li{
+margin-bottom: 0.5em;
+}
+
+#substitle{
+  font-style: italic;
+  font-size: 0.75em;
+}
+ style="color:#07c4dd;font-size:4em;font-style:italic;"
