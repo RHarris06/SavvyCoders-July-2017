@@ -1,11 +1,11 @@
 {
-    "name": "rayharris",
-    "version": "1.0.0",
-    "description": "an example of a portfolio project for Savvy Coders",
-    "main": "index.html",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1",
-      "start": "http-server ."
+  "name": "rayharris",
+  "version": "1.0.0",
+  "description": "an example of a portfolio project for Savvy Coders",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server ."
   },
   "repository": {
     "type": "git",

@@ -1,12 +1,15 @@
 h1{
-  color: #07c4dd
-  font-size: 4em
-  font-style:italic;
+    color: #07c4dd
+    font-size: 4em
+    font-style:italic;
+    text-align: center;
 }
 img{
-  width: 400px;
-  height: auto;
-
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
 }
 
 ol{
@@ -14,15 +17,24 @@ ol{
 }
 
 .highlight {
-  background: yellow;
+    background: yellow;
 }
 
 li{
 margin-bottom: 0.5em;
 }
-
-#substitle{
-  font-style: italic;
-  font-size: 0.75em;
+.content{
+    margin:0 auto;
+    padding: 2em;
+    font-family: sans-serif;
 }
- style="color:#07c4dd;font-size:4em;font-style:italic;"
+.container{
+    max-width: 750 px;
+    margin: 0 auto;
+
+}
+
+#subtitle{
+    font-style: italic;
+    font-size: 0.75em;
+}
