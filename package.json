@@ -1,0 +1,23 @@
+{
+    "name": "rayharris",
+    "version": "1.0.0",
+    "description": "an example of a portfolio project for Savvy Coders",
+    "main": "index.html",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "http-server ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RHarris06/SavvyCoders-July-2017.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RHarris06/SavvyCoders-July-2017/issues"
+  },
+  "homepage": "https://github.com/RHarris06/SavvyCoders-July-2017#readme",
+  "devDependencies": {
+    "http-server": "^0.10.0"
+  }
+}
