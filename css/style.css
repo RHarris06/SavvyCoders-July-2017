@@ -3,6 +3,7 @@ h1{
     font-size: 4em
     font-style:italic;
     text-align: center;
+    font-family: cursive, sans-serif;
 }
 img{
     max-width: 400px;
@@ -88,4 +89,14 @@ margin-bottom: 0.5em;
 #subtitle{
     font-style: italic;
     font-size: 0.75em;
+}
+
+input{
+    margin: 1em;
+}
+
+input{type='text'},
+input{type='password'}
+input{type='email'}{
+    padding: 0.5em;
 }
