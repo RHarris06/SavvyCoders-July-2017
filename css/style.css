@@ -13,7 +13,7 @@ img{
 }
 
 ol{
-  font-style: italic;
+  font-style: 2em;
 }
 
 .highlight {
@@ -31,7 +31,58 @@ margin-bottom: 0.5em;
 .container{
     max-width: 750 px;
     margin: 0 auto;
+}
+.sidebar {
+    background-color: skyblue;
+    position: fixed;
+    top: 0em;
+    right: 0;
+    width: 10em;
+    height: 100vh;
+}
+.relative{
+    position: relative;
+}
+.avatar{
+    margin: 1em;
+    width: 2em;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
 
+.menu{
+    font-family:sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 1em;
+    z-index: 1;
+}
+
+.menu:hover + .sidebar{
+    right: 0;
+}
+
+.sidebar{
+    padding-top: 5em:
+    background-color: skyblue;
+    position: fixed;
+    top: 0;
+    right: -10em;
+    width: 10em;
+    height: 100vh;
+    transition: right 0.15s ease;
+}
+
+.sidebar:hover{
+    right: 0;
+}
+
+.sidebar li{
+    background-attachment: red;
 }
 
 #subtitle{
